@@ -7,12 +7,12 @@ int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	std::cout << "Ââåäèòå ñëîâî:" << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»Ð¾Ð²Ð¾:" << std::endl;
 
 	std::string string{};
-
 	std::getline(std::cin >> std::ws, string);
-	std::cout << "Âû ââåëè:" << std::endl << string << std::endl;
+	
+	std::cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:" << std::endl << string << std::endl;
 
 	return EXIT_SUCCESS;
 }
